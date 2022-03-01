@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería El Perrito</title>
+</head>
+<body>
+
+<img src="./logo.png" alt="logo pasteleria squishy cake" width="250px">
+<h1>Pastelería El Perrito</h1>
+
+<h2>Haga su pedido</h2>
+
+<form>
+    <label for="nombre">¿Cuál es su nombre?</label><br>
+    <input type="text" placeholder="Nombre"><br>
+
+    <label for="telefono">¿Cuál es su teléfono?</label><br>
+    <input type="tel" placeholder="Número de teléfono"><br>
+
+    <label for="mail">¿Cuál es su correo electrónico?</label><br>
+    <input type="email" placeholder="Correo electrónico"><br>
+
+    <label for="descripcion">Describa su pastel ideal.</label><br>
+    <textarea name="descripcion"></textarea><br>
+    <hr>
+
+    <label for="cakes">Sabor de su pastel:</label><br>
+    <select name="cakes">
+        <option value="placeholder">-Seleccione una opción-</option>
+        <option value="maracuya">Pastel de Maracuyá</option>
+        <option value="frambuesa-jalapeno">Pastel de Frambuesa-Jalapeño</option>
+        <option value="tres-leches">Pastel de Tres Leches</option>
+        <option value="sorpresa">Pastel Sorpresa (siga sin preguntar)</option>
+    </select>
+
+    <p>Seleccione sus decoraciones y cubiertas:</p>
+    <input type="checkbox" name="merengue" id="merengue">
+    <label for="merengue">Cubierta de merengue</label><br>
+
+    <input type="checkbox" name="chocolate" id="chocolate">
+    <label for="chocolate">Cubierta de chocolate</label><br>
+
+    <input type="checkbox" name="duraznos" id="duraznos">
+    <label for="duraznos">Duraznos en almíbar</label><br>
+
+    <input type="checkbox" name="valentina" id="valentina">
+    <label for="valentina">Salsa Valentina</label><br>
+
+    <hr>
+    <input type="reset" value="Limpiar formulario">
+    <input type="submit" value="Hacer pedido">
+
+</form>
+
+<a href="./index.html">Volver</a>
+
+</body>
+</html>
