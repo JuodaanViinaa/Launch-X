@@ -10,22 +10,25 @@
 </head>
 <body>
 
-<div class="blur">
-    <nav class="navbar">
-        <a class="title nav-link" href="#">Vaccination</a>
-        <ul class="nav-list">
-            <li class="nav-element"><a class="nav-link" href="#">Database</a></li>
-            <li class="nav-element"><a class="nav-link" href="#">Education</a></li>
-            <li class="nav-element"><a class="nav-link" href="#">News</a></li>
-            <li class="nav-element"><a class="nav-link" href="#">Regulation</a></li>
-            <li class="hoax-button"><a href="#" class="myButton">Hoax Buster</a></li>
-        </ul>
-    </nav>
-</div>
+<nav class="navbar">
+    <a class="title nav-link" href="#">Vaccination</a>
+    <ul class="nav-list">
+        <li class="nav-element"><a class="nav-link" href="#">Database</a></li>
+        <li class="nav-element"><a class="nav-link" href="#">Education</a></li>
+        <li class="nav-element"><a class="nav-link" href="#">News</a></li>
+        <li class="nav-element"><a class="nav-link" href="#">Regulation</a></li>
+        <li class="hoax-button"><a href="#" class="myButton">Hoax Buster</a></li>
+    </ul>
+</nav>
+
+<div class="arrow-down triangle1"></div>
 
 <section id="welcome">
     <div class="welcome-container">
-        <h1 class="subtitle">Fight the virus with vaccines</h1>
+        <div>
+            <h1 class="subtitle">Fight the virus with vaccines</h1>
+            <div class="arrow-left triangle2"></div>
+        </div>
         <p class="description">Let's stop this pandemic by killing the virus with a vaccine. Don't let yourself and your family get infected.</p>
         <ul class="attribute-list">
             <li class="attributes"><i class="fa-solid fa-shield"></i> Best protection</li>
@@ -41,37 +44,233 @@
     <p>Schedule your vaccination</p>
     <div class="schedule-box">
         <dl class="schedule-list">
-            <dt><label for="location">Location</label></dt>
-            <dd>
-            <select name="location" id="location">
-                <option value="mexico">Mexico</option>
-                <option value="us">United States</option>
-                <option value="cuba">Cuba</option>
-                <option value="china">China</option>
-                <option value="other">Other</option>
-            </select>
-            </dd>
-            
-            <dt>Date</dt>
-            <dd><input type="date"></dd>
+            <div>
+                <dt><label for="location">Location</label></dt>
+                <dd>
+                <select name="location" id="location">
+                    <option value="mexico">Mexico</option>
+                    <option value="us">United States</option>
+                    <option value="cuba">Cuba</option>
+                    <option value="china">China</option>
+                    <option value="other">Other</option>
+                </select>
+                </dd>
+            </div>
 
-            <dt><label for="vaccine">Vaccine</label></dt>
-            <dd>            
-            <select name="cars" id="cars">
-                <option value="sputnik">Sputnik</option>
-                <option value="sinovac">Sinovac</option>
-                <option value="soberana">Soberana</option>
-                <option value="other">Other</option>
-            </select>
-            </dd>
+            <div>
+                <dt>Date</dt>
+                <dd><input type="date"></dd>
+            </div>
+
+            <div>
+                <dt><label for="vaccine">Vaccine</label></dt>
+                <dd>            
+                <select name="cars" id="cars">
+                    <option value="sputnik">Sputnik</option>
+                    <option value="sinovac">Sinovac</option>
+                    <option value="soberana">Soberana</option>
+                    <option value="other">Other</option>
+                </select>
+                </dd>
+            </div>
         </dl>
     </div>
 </div>
 
 <section class="brands">
-    <img class="hammer" src="http://img4.wikia.nocookie.net/__cb20070109194904/fantasysports/images/d/dc/Hammer_and_sickle.png" alt="martillo y hoz">
-    <img class="sinovac" src="https://pharmashots.com/wp-content/uploads/2020/09/sinovac-800-removebg-preview.png" alt="sinovac-logo">
+    <img class="brand-item" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CanSino_Biologics_logo.svg/1200px-CanSino_Biologics_logo.svg.png" alt="martillo y hoz">
+    <img class="brand-item" src="https://pharmashots.com/wp-content/uploads/2020/09/sinovac-800-removebg-preview.png" alt="sinovac-logo">
+    <img class="brand-item" src="https://numfocus.org/wp-content/uploads/2019/06/Moderna-logo.png" alt="moderna-logo">
+    <img class="brand-item" src="http://logok.org/wp-content/uploads/2014/09/AstraZeneca-logo-and-wordmark-1024x768.png" alt="astra-logo">
 </section>
+
+<div class="reasons-title-container">
+    <h1 class="subtitle-left">Why should I get vaccinated?</h1>
+    <div class="arrow-left"></div>
+</div>
+
+<section id="reasons">
+    <div class="reasons-container">
+        <p>In order to avoid any doubts about getting the COVID-19 vaccine, identify the following 4 benefits of vaccination:</p>
+    </div>
+</section>
+
+<section id="reason-cards">
+    <div class="card">
+        <div class="icon-container">
+            <i class="fa-solid fa-head-side-cough-slash fa-2x"></i>
+        </div>
+        <p class="card-title">Minimize the spread of viruses</p>
+        <p class="card-description">The vaccine has been proven effective to prevent people from getting infected with COVID</p>
+    </div>
+
+    <div class="card">
+        <div class="icon-container">
+            <i class="fa-solid fa-bacteria fa-2x"></i>
+        </div>
+        <p class="card-title">Forming antibodies</p>
+        <p class="card-description">The COVID vaccine helps shape the antibody response for the immune system</p>
+    </div>
+
+    <div class="card">
+        <div class="icon-container">
+            <i class="fa-solid fa-shield-virus fa-2x"></i>
+        </div>
+        <p class="card-title">Protecting people nearby</p>
+        <p class="card-description">You can also protect those who matter the most to you, and those who cannot get the vaccine</p>
+    </div>
+
+    <div class="card">
+        <div class="icon-container">
+            <i class="fa-solid fa-people-arrows-left-right fa-2x"></i>
+        </div>
+        <p class="card-title">Creating herd immunity</p>
+        <p class="card-description">When enough people are vaccinated, those who are not will also be protected by group or herd immunity</p>
+    </div>
+</section>
+
+<div class="preparations-title-container">
+    <span class="arrow-right triangle4"></span>
+    <h1 class="preparations">Preparations before the vaccine</h1>
+</div>
+
+<section id="preparations">
+    <div class="image-container">
+        <img class="illustration" src="https://db4nnybic3xty.cloudfront.net/images/lenddirect/_web-cases/_web-case-1/nurse-portrait-vert.png" alt="smiling nurse" width=400px>
+    </div>
+    <div class="section-container">
+        <p class="description">The success of vaccines is strongly influenced by the strength of the body's immune system. Therefore, you can try the following advice to boost its effectiveness:</p>
+        <div class="preparation-box">
+            <div class="preparation-item">
+                <div class="icon-container">
+                    <i class="fa-solid fa-martini-glass-citrus"></i>
+                </div>
+                <p>Avoid alcoholic beverages</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+            <div class="preparation-item">
+                <div class="icon-container">
+                    <i class="fa-solid fa-face-dizzy"></i>
+                </div>
+                <p>Avoid stress</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+            <div class="preparation-item">
+                <div class="icon-container">
+                    <i class="fa-solid fa-carrot"></i>
+                </div>
+                <p>Eat healthy food</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+            <div class="preparation-item">
+                <div class="icon-container">
+                    <i class="fa-solid fa-bed"></i>
+                </div>
+                <p>Get enough sleep</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+            <div class="preparation-item">
+                <div class="icon-container">
+                    <i class="fa-solid fa-dumbbell"></i>
+                </div>
+                <p>Exercise</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="contact-title-container">
+    <h1 class="contact">Emergency contact</h1>
+    <span class="arrow-left triangle4"></span>
+</div>
+
+<section id="contact">
+    <div class="section-container">
+        <p class="description">Contact us through one of the mediums below if you or any of your loved ones has symptoms resembling COVID infection:</p>
+        <div class="contact-box">
+            <div class="contact-item">
+                <div class="icon-container">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <p>Call</p>
+                <p>555-012345</p>
+            </div>
+
+            <div class="contact-item">
+                <div class="icon-container">
+                    <i class="fa-solid fa-comment-dots"></i>
+                </div>
+                <p>Chat</p>
+                <p>555-012345</p>
+            </div>
+
+            <div class="contact-item">
+                <div class="icon-container">
+                    <i class="fa-solid fa-video"></i>
+                </div>
+                <p>Videocall</p>
+                <p>555-012345</p>
+            </div>
+
+            <div class="contact-item">
+                <div class="icon-container">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <p>Email</p>
+                <p>555-012345</p>
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+        <img class="illustration" src="https://mediwallet.app/wp-content/uploads/2020/04/nurse-smiling.png" alt="smiling nurse" width=400px>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="foot-vacc">
+            <p class="footer-title">Vaccination</p>
+            <p class="footer-content">Our goal is to help free the world from the ongoing pandemic</p>
+        </div>
+
+        <div class="foot-other">
+            <div class="about">
+                <p class="footer-title">About</p>
+                <p class="footer-content">About us</p>
+                <p class="footer-content">Features</p>
+                <p class="footer-content">News and blog</p>
+            </div>
+
+            <div class="company">
+                <p class="footer-title">Company</p>
+                <p class="footer-content">How we work</p>
+                <p class="footer-content">Capital</p>
+                <p class="footer-content">Security</p>
+            </div>
+
+            <div class="support">
+                <p class="footer-title">Support</p>
+                <p class="footer-content">FAQ</p>
+                <p class="footer-content">Support Center</p>
+                <p class="footer-content">Contact us</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>@2022 Vaccination. All rights reserved</p>
+        <div class="terms-policy">
+            <p>Terms & agreements</p>
+            <p>Privacy policy</p>
+        </div>  
+    </div>
+    <div class="arrow-up triangle5"></div>
+</footer>
 
 </body>
 </html>
