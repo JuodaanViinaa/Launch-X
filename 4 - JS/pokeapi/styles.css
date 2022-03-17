@@ -44,6 +44,7 @@ body {
 
 .right-side {
     margin: 100px auto auto;
+    line-height: 20px;
 }
 
 #pokeName {
@@ -134,4 +135,8 @@ p {
     text-align: center;
     line-height: 30px;
     font-size: 25px;
+}
+
+#moveNum {
+    line-height: 30px;
 }
