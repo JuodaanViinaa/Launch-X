@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <title>Pokedex</title>
+</head>
+<body>
+
+<div class="full-pokedex">
+    <div id="left-box">
+        <div class="top-container">
+            <div class="light-container">
+                <div class="light red"></div>
+                <div class="light yellow"></div>
+                <div class="light green"></div>
+            </div>
+                <h1>Pokedex</h1>
+        </div>
+        <input type="text" placeholder="Pokemon name" id="pokeName" name="pokeName"><br>
+        <div class="image-container">
+            <p id="name">
+                Choose a Pokémon!
+            </p>
+            <img src="https://2.bp.blogspot.com/-nnriC7RO7dM/VOuR_46Eb_I/AAAAAAAAAVs/u5J-XjN79SY/s1600/Pokeball.png" alt="Pokemon picture" width="250px" id="pokeImg"><br>
+            <p id="type">
+            </p>
+            <p id="stat0">
+            </p>
+            <p id="stat1">
+            </p>
+            <p id="stat2">
+            </p>
+            <p id="stat3">
+            </p>
+            <p id="stat4">
+            </p>
+            <p id="stat5">
+            </p>
+            <p id="moveNum">
+            </p>
+        </div>
+        <button class="refresh" onclick="fetchPokemon()">Refresh</button>
+    </div>
+    <div id="right-box">
+        <div class="image-container right-side">
+            <p id="moves">
+            </p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <script src="./poke.js"></script>
+</footer>
+
+</body>
+</html>

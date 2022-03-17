@@ -1,0 +1,137 @@
+body {
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+.full-pokedex {
+    display: flex;
+}
+
+#left-box {
+    background-color: red;
+    width: 40%;
+    margin: auto auto auto auto;
+    padding: 0px 20px 30px;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#right-box {
+    display: none;
+    background-color: red;
+    width: 40%;
+    margin: auto auto auto 5px;
+    padding: 0px 20px 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#left-box, #right-box {
+    height: 800px;
+}
+
+.image-container {
+    height: 70%;
+    width: 80%;
+    background-color: #00CA04;
+    margin: auto;
+    overflow: scroll;
+    line-height: 5px;
+}
+
+.right-side {
+    margin: 100px auto auto;
+}
+
+#pokeName {
+    width: 80%;
+    display: block;
+    margin:  -10px auto;
+}
+
+#pokeImg {
+    display: block;
+    margin: auto auto;
+}
+
+.refresh {
+    margin: 30px auto auto 50px;
+	box-shadow: -1px 2px 2px 0px #8f9906;
+	background-color:#f2ff7f;
+	border-radius:11px;
+	border:3px solid #1100ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#381c38;
+	font-family:Arial;
+	font-size:17px;
+	padding:14px 31px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+
+.refresh:hover {
+	background-color:#e4eb84;
+}
+
+.refresh:active {
+	position:relative;
+	top:1px;
+}
+
+h1 {
+    color: yellow;
+    -webkit-text-stroke: 2px blue;
+    letter-spacing: 0.1em;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.light-container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.light {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    z-index: 2;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow ;
+}
+
+.green {
+    background-color: rgb(50,255,50);
+}
+
+p {
+    margin: 20px;
+    color: yellow;
+    -webkit-text-stroke: 1px blue;
+    letter-spacing: 0.1em;
+}
+
+#name {
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+}
